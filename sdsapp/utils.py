@@ -66,7 +66,7 @@ class SDSHTMLParser (HTMLParser):
     def handle_data(self, data):
         if data is None:
             return
-        data = data.strip (string.whitespace)
+#        data = data.strip (string.whitespace)
         if data == '':
             return
         
