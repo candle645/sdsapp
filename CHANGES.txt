@@ -2,3 +2,8 @@
 ---
 
 - Initial version.
+
+0.1
+---
+
+- Stable version made publicly available in github
