@@ -2,7 +2,7 @@ sdsapp
 ======
     
 1. Download and unpack application
-wget https://github.com/candle645/sdsapp/blob/master/sdsapp-0.1.tar.gz
+wget https://github.com/candle645/sdsapp/raw/master/sdsapp-0.1.tar.gz
 tar -xvf sdsapp-0.1.tar.gz
 cd sdsapp-0.1
  
