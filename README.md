@@ -38,12 +38,12 @@ sdsapp
 7. Application runs as web server and accept connections at port 6543 
 
 Configure container ports to make it available on host system, if necessary
-Run web browser and open "http://<youors server name or IP>:6543/"
+Run web browser and open "http://yours-server-name-or-IP":6543/"
 
 8. Login and permissions
 
 Any non-blank string accepted as user name/password. There are no real user password check for normal users, so any password is accepted.
 There are Built-in user: "candle" with password "candle645" who have full access to everything.
 
-User permissions configures in sdsapp/__init__.py, main (). See sdsapp/handlers/access.py for brief access control model description and
-access_handler.grant_permission () calls in sdsapp/__init__.py access configuration samples 
+User permissions configured in sdsapp/__init__.py, main (). See sdsapp/handlers/access.py for brief access control model description and
+access_handler.grant_permission () calls in sdsapp/__init__.py for access configuration samples 
