@@ -1,0 +1,86 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: lightgray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+p {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-semi-bold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+.container {background:white;margin-top: 10px;}
+.row {margin:10px 0;}
+.header, .header a, .header .container {color:white; background-color: #2b5b84;margin-top:0; padding:0;}
+.logo {font-size:28px;font-weight:bold;}
+.log-btn, .log-btn a {background-color: #f98131;  font-size:20px; font-weight:bold;}
+.log-btn {float:right; margin-top: -34px; padding: 0 4px;}
+
+/*Items list*/
+.item-list {
+	background-color: white;
+	font-weight: bold;
+}
+.item-list.left {
+	border-right: 1px solid lightgray;
+    min-height: 400px;
+}
+.title {
+	color: #2b5b84;
+	font-size: 20px;
+	font-weight: bold;
+}
+.item-list ul {
+	list-style: none outside none;
+	padding-left: 4px;
+}
+.item-list ul span{
+	color: gray;
+	font-style: italic;
+}
+.item-list ul a {
+	color: #f98131;
+}
+
+.item-actions {
+	margin: 8px 0;
+}
+.item-actions:last-child {border:none;}
+.item-actions a {
+/*	border-right: 2px solid black; */
+    color: #f98131;
+    font-weight: bold;
+    padding: 0 4px 0 0;
+}
+
+/* Login popup form*/
+.form-group label.error {
+	color:red;
+	font-style: italic;
+    font-weight: normal;
+}
+
+
+/* Raw XML data viewer for debugging purposes */
+.xml-debug 
+{position:absolute;z-index:10;right:0;bottom:0;font-size: 12px;}
+.xml-debug .toolbar {cursor:pointer;}
+.xml-debug .hidden {display:none;}
