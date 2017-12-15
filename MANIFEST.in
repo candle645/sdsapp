@@ -1,0 +1,3 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include sdsapp *.ico *.png *.css *.gif *.jpg *.pt *.txt *.mak *.mako *.js *.html *.xml *.xsl
+recursive-include sdsapp/../data *.xml
